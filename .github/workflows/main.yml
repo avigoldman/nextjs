@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: Hello world
         id: hello
-        uses: useparcel/wait-for-deployments-action@0.0.9
+        uses: useparcel/wait-for-deployments-action@0.0.10
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
