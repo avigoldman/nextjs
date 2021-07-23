@@ -7,3 +7,5 @@ jobs:
       - name: Hello world
         id: hello
         uses: useparcel/wait-for-deployments-action@0.0.9
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
