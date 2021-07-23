@@ -6,4 +6,4 @@ jobs:
     steps:
       - name: Hello world
         id: hello
-        uses: useparcel/wait-for-deployments-action@0.0.6
+        uses: useparcel/wait-for-deployments-action@0.0.7
